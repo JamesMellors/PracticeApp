@@ -1,0 +1,41 @@
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\Android.csprojResolveAssemblyReference.cache
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Android.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Android.pdb
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Android.Android.apk
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Android.Android-Signed.apk
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\Android.csproj.CoreCompileInputs.cache
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\Android.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\Android.pdb
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\android\bin\Android.Android.apk
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\res\layout\main.xml
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\res\values\strings.xml
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\R.cs.flag
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\uploadflags.txt
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Android.dll.mdb
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\android\assets\Android.dll.mdb
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\res\drawable\ps_top_card_01.png
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\res\drawable\ps_top_card_02.png
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\res\drawable\ps_top_card_03.png
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\res\drawable\ps_top_card_04.png
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Android.dll
+bin\Debug\Mono.Android.pdb
+bin\Debug\mscorlib.pdb
+bin\Debug\System.Core.pdb
+bin\Debug\System.pdb
+bin\Debug\System.Xml.pdb
+bin\Debug\System.Net.Http.pdb
+bin\Debug\System.Runtime.Serialization.pdb
+bin\Debug\System.ServiceModel.Internals.pdb
+bin\Debug\Mono.Security.pdb
+bin\Debug\System.ComponentModel.Composition.pdb
+obj\Debug\linksrc\Android.dll.mdb
+obj\Debug\linksrc\Mono.Android.pdb
+obj\Debug\linksrc\mscorlib.pdb
+obj\Debug\linksrc\System.Core.pdb
+obj\Debug\linksrc\System.pdb
+obj\Debug\linksrc\System.Xml.pdb
+obj\Debug\linksrc\System.Net.Http.pdb
+obj\Debug\linksrc\System.Runtime.Serialization.pdb
+obj\Debug\linksrc\System.ServiceModel.Internals.pdb
+obj\Debug\linksrc\Mono.Security.pdb
+obj\Debug\linksrc\System.ComponentModel.Composition.pdb
