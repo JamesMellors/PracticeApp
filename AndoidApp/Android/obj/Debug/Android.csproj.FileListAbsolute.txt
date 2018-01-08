@@ -21,8 +21,22 @@ C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\CoursesLib
 C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\CoursesLibrary.pdb
 C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\CoursesLibrary.dll.mdb
 C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\android\assets\CoursesLibrary.dll.mdb
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Xamarin.Android.Support.Annotations.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Xamarin.Android.Support.Compat.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Xamarin.Android.Support.Fragment.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\res\layout\coursefragment.xml
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Xamarin.Android.Arch.Core.Common.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Xamarin.Android.Arch.Lifecycle.Common.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Xamarin.Android.Arch.Lifecycle.Runtime.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\res\layout\courseactivity.xml
 C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Android.dll
-C:\Users\SurveyMe User\Documents\Practice\AndoidApp\CoursesLibrary\bin\Debug\CoursesLibrary.dll
 bin\Debug\CoursesLibrary.dll.mdb
 bin\Debug\Mono.Android.pdb
 bin\Debug\mscorlib.pdb
