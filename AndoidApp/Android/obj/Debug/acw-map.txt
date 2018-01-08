@@ -1,3 +1,7 @@
+Android.CategoryActivity, Android;md5b458cc81312dcbd199d3a1508d254dfe.CategoryActivity
+Android.CategoryActivity, Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b458cc81312dcbd199d3a1508d254dfe.CategoryActivity
+Android.CategoryActivity;md5b458cc81312dcbd199d3a1508d254dfe.CategoryActivity
+android.CategoryActivity;md5b458cc81312dcbd199d3a1508d254dfe.CategoryActivity
 Android.CourseActivity, Android;md5b458cc81312dcbd199d3a1508d254dfe.CourseActivity
 Android.CourseActivity, Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b458cc81312dcbd199d3a1508d254dfe.CourseActivity
 Android.CourseActivity;md5b458cc81312dcbd199d3a1508d254dfe.CourseActivity

@@ -99,6 +99,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategoryActivity.cs" />
     <Compile Include="CourseActivity.cs" />
     <Compile Include="CourseFragment.cs" />
     <Compile Include="CoursePagerAdapter.cs" />

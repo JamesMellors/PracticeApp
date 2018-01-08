@@ -15,8 +15,8 @@ using Android.Support.V4.View;
 
 namespace Android
 {
-    [Activity(Label = "Courses", MainLauncher = true)]
-    // [Activity(Label = "CourseActivity")]
+    
+   [Activity(Label = "Course Activity")]
     public class CourseActivity : FragmentActivity
     {
 

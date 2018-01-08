@@ -6,7 +6,8 @@ using CoursesLibrary;
 
 namespace Android
 {
-    //[Activity(Label = "Courses", MainLauncher = true)]
+    [Activity(Label = "Courses")]
+   
     public class MainActivity : Activity
     {
         Button buttonNext;
