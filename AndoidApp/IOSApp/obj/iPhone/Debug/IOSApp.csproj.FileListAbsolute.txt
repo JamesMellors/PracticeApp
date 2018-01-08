@@ -1,0 +1,10 @@
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\IOSApp\bin\iPhone\Debug\IOSApp.exe
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\IOSApp\bin\iPhone\Debug\IOSApp.pdb
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\IOSApp\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\IOSApp\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\IOSApp\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\IOSApp\obj\iPhone\Debug\optimized\
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\IOSApp\obj\iPhone\Debug\IOSApp.csprojResolveAssemblyReference.cache
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\IOSApp\obj\iPhone\Debug\IOSApp.csproj.CoreCompileInputs.cache
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\IOSApp\obj\iPhone\Debug\IOSApp.exe
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\IOSApp\obj\iPhone\Debug\IOSApp.pdb

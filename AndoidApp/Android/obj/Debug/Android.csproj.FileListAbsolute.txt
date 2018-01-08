@@ -17,7 +17,13 @@ C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\res\drawab
 C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\res\drawable\ps_top_card_02.png
 C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\res\drawable\ps_top_card_03.png
 C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\res\drawable\ps_top_card_04.png
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\CoursesLibrary.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\CoursesLibrary.pdb
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\CoursesLibrary.dll.mdb
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\android\assets\CoursesLibrary.dll.mdb
 C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Android.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\CoursesLibrary\bin\Debug\CoursesLibrary.dll
+bin\Debug\CoursesLibrary.dll.mdb
 bin\Debug\Mono.Android.pdb
 bin\Debug\mscorlib.pdb
 bin\Debug\System.Core.pdb
@@ -29,6 +35,7 @@ bin\Debug\System.ServiceModel.Internals.pdb
 bin\Debug\Mono.Security.pdb
 bin\Debug\System.ComponentModel.Composition.pdb
 obj\Debug\linksrc\Android.dll.mdb
+obj\Debug\linksrc\CoursesLibrary.dll.mdb
 obj\Debug\linksrc\Mono.Android.pdb
 obj\Debug\linksrc\mscorlib.pdb
 obj\Debug\linksrc\System.Core.pdb

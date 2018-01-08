@@ -2,10 +2,11 @@
 using Android.Widget;
 using Android.OS;
 using System;
+using CoursesLibrary;
 
 namespace Android
 {
-    [Activity(Label = "Android", MainLauncher = true)]
+    [Activity(Label = "Courses", MainLauncher = true)]
     public class MainActivity : Activity
     {
         Button buttonNext;
@@ -13,7 +14,7 @@ namespace Android
         TextView textTitle;
         ImageView imageContent;
         TextView textDesc;
-
+        CourseManager courseManager;
 
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -30,21 +31,37 @@ namespace Android
 
             buttonNext.Click += buttonNext_Click;
             buttonPrev.Click += buttonPrev_Click;
-
+            courseManager = new CourseManager();
+            courseManager.MoveFirst();
         }
 
         private void buttonPrev_Click(object sender, EventArgs e)
         {
-            textTitle.Text = "Prev Button";
-            textDesc.Text = "This is a test ------------test---------test-------test";
-            imageContent.SetImageResource(Resource.Drawable.ps_top_card_02);
+            courseManager.MovePrev();
+            UpdateUI();
+            //textTitle.Text = "Prev Button";
+            //textDesc.Text = "This is a test ------------test---------test-------test";
+            //imageContent.SetImageResource(Resource.Drawable.ps_top_card_02);
         }
 
         private void buttonNext_Click(object sender, EventArgs e)
         {
-            textTitle.Text = "Next Button";
-            textDesc.Text = "This is a test ------------test---------test-------test22222";
-            imageContent.SetImageResource(Resource.Drawable.ps_top_card_02);
+            courseManager.MoveNext();
+            UpdateUI();
+            //textTitle.Text = "Next Button";
+            //textDesc.Text = "This is a test ------------test---------test-------test22222";
+            //imageContent.SetImageResource(Resource.Drawable.ps_top_card_02);
+        }
+
+        private void UpdateUI()
+        {
+
+            textTitle.Text = courseManager.current.Title;
+            textDesc.Text = courseManager.current.Description;
+       
+            imageContent.SetImageResource(ResouceHelper.TranslateDrawableWithReflection(courseManager.current.Image));
+            buttonPrev.Enabled = courseManager.CanMovePrev;
+            buttonNext.Enabled = courseManager.CanMoveNext;
         }
     }
 }

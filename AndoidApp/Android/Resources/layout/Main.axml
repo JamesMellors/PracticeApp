@@ -33,7 +33,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/textTitle"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/imageContent" />
+        android:layout_below="@id/imageContent"
+        android:gravity="center_horizontal" />
     <TextView
         android:text="Small Text"
         android:textAppearance="?android:attr/textAppearanceSmall"

@@ -1,0 +1,6 @@
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\CoursesLibrary\bin\Debug\CoursesLibrary.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\CoursesLibrary\bin\Debug\CoursesLibrary.pdb
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\CoursesLibrary\obj\Debug\CoursesLibrary.csprojResolveAssemblyReference.cache
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\CoursesLibrary\obj\Debug\CoursesLibrary.csproj.CoreCompileInputs.cache
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\CoursesLibrary\obj\Debug\CoursesLibrary.dll
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\CoursesLibrary\obj\Debug\CoursesLibrary.pdb
