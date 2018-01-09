@@ -12,7 +12,7 @@ using Android.Widget;
 using Android.Support.V4.App;
 using CoursesLibrary;
 
-namespace Android
+namespace AndroidApp
 {
     class CoursePagerAdapter : FragmentStatePagerAdapter
     {
@@ -27,11 +27,11 @@ namespace Android
             
          get { return courseManager.Length; }
         }
-        public override Support.V4.App.Fragment GetItem(int position)
+        public override Android.Support.V4.App.Fragment GetItem(int position)
         {
             courseManager.MoveTo(position);
             CourseFragment courseFragment = new CourseFragment();
-            courseFragment.Course = courseManager.current;
+            courseFragment.Course = courseManager.Current;
 
             return courseFragment;
         }

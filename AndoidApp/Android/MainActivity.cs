@@ -3,8 +3,9 @@ using Android.Widget;
 using Android.OS;
 using System;
 using CoursesLibrary;
+using Android;
 
-namespace Android
+namespace AndroidApp
 {
     [Activity(Label = "Courses")]
    
@@ -57,10 +58,10 @@ namespace Android
         private void UpdateUI()
         {
 
-            textTitle.Text = courseManager.current.Title;
-            textDesc.Text = courseManager.current.Description;
+            textTitle.Text = courseManager.Current.Title;
+            textDesc.Text = courseManager.Current.Description;
        
-            imageContent.SetImageResource(ResouceHelper.TranslateDrawableWithReflection(courseManager.current.Image));
+            imageContent.SetImageResource(ResouceHelper.TranslateDrawableWithReflection(courseManager.Current.Image));
             buttonPrev.Enabled = courseManager.CanMovePrev;
             buttonNext.Enabled = courseManager.CanMoveNext;
         }

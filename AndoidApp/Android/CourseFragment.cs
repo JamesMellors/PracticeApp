@@ -12,8 +12,9 @@ using Android.Views;
 using Android.Widget;
 using CoursesLibrary;
 using Android.Support.V4.App;
+using Android;
 
-namespace Android
+namespace AndroidApp
 {
     public class CourseFragment : Fragment
     {
