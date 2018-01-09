@@ -46,7 +46,7 @@ namespace AndroidApp
 
             coursePagerAdapter = new CoursePagerAdapter(SupportFragmentManager, courseManager);
 
-            viewPager = FindViewById<ViewPager>(Resource.Id.coursePlager);
+            viewPager = FindViewById<ViewPager>(Resource.Id.coursePager);
             viewPager.Adapter = coursePagerAdapter;
         }
     }

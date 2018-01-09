@@ -7,12 +7,12 @@ using Android;
 
 namespace AndroidApp
 {
-    [Activity(Label = "Courses")]
+    //[Activity(Label = "Courses")]
    
     public class MainActivity : Activity
     {
-        Button buttonNext;
-        Button buttonPrev;
+        //Button buttonNext;
+        //Button buttonPrev;
         TextView textTitle;
         ImageView imageContent;
         TextView textDesc;
@@ -25,14 +25,14 @@ namespace AndroidApp
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
-            buttonNext = FindViewById<Button>(Resource.Id.buttonNext);
-            buttonPrev = FindViewById<Button>(Resource.Id.buttonPrev);
+            //buttonNext = FindViewById<Button>(Resource.Id.buttonNext);
+            //buttonPrev = FindViewById<Button>(Resource.Id.buttonPrev);
             textTitle = FindViewById<TextView>(Resource.Id.textTitle);
             imageContent = FindViewById<ImageView>(Resource.Id.imageContent);
             textDesc = FindViewById<TextView>(Resource.Id.textDesc);
 
-            buttonNext.Click += buttonNext_Click;
-            buttonPrev.Click += buttonPrev_Click;
+            //buttonNext.Click += buttonNext_Click;
+            //buttonPrev.Click += buttonPrev_Click;
             courseManager = new CourseManager();
             courseManager.MoveFirst();
         }
@@ -62,8 +62,8 @@ namespace AndroidApp
             textDesc.Text = courseManager.Current.Description;
        
             imageContent.SetImageResource(ResouceHelper.TranslateDrawableWithReflection(courseManager.Current.Image));
-            buttonPrev.Enabled = courseManager.CanMovePrev;
-            buttonNext.Enabled = courseManager.CanMoveNext;
+            //buttonPrev.Enabled = courseManager.CanMovePrev;
+            //buttonNext.Enabled = courseManager.CanMoveNext;
         }
     }
 }

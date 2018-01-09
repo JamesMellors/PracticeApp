@@ -1,6 +1,8 @@
-System.Runtime
 CoursesLibrary
-System.Resources.ResourceManager
+System.Runtime
+Xamarin.Android.Arch.Core.Common
+Xamarin.Android.Arch.Lifecycle.Common
+Xamarin.Android.Arch.Lifecycle.Runtime
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat
@@ -11,6 +13,4 @@ Xamarin.Android.Support.Media.Compat
 Xamarin.Android.Support.v4
 Xamarin.Android.Support.v7.AppCompat
 Xamarin.Android.Support.Vector.Drawable
-Xamarin.Android.Arch.Core.Common
-Xamarin.Android.Arch.Lifecycle.Common
-Xamarin.Android.Arch.Lifecycle.Runtime
+System.Resources.ResourceManager
