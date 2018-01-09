@@ -13,11 +13,12 @@ using Android.Support.V4.App;
 using CoursesLibrary;
 using Android.Support.V4.View;
 using Android;
+using Android.Support.V4.Widget;
 
 namespace AndroidApp
 {
     
-   [Activity(Label = "Course Activity")]
+   [Activity(Label = "Course Activity", MainLauncher = true)]
     public class CourseActivity : FragmentActivity
     {
         public const String DEFAULT_CATEGORY_TITLE_EXTRA = "DisplayCategoryTitleExtra";
@@ -25,22 +26,29 @@ namespace AndroidApp
         CourseManager courseManager;
         CoursePagerAdapter coursePagerAdapter;
         ViewPager viewPager;
+        CourseCategoryManager courseCategoryManager;
+        DrawerLayout drawerLayout;
+        ListView drawerListView;
 
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
+            courseCategoryManager = new CourseCategoryManager();
+            courseCategoryManager.MoveFirst();
             // Create your application here
             SetContentView(Resource.Layout.CourseActivity);
-            string displayCategoryTitle = DEFAULT_CATEGORY_TITLE;
-            Intent startUpIntent = this.Intent;
-            if (startUpIntent != null)
-            {
-                String displayCategoryTitleExtra = startUpIntent.GetStringExtra(DEFAULT_CATEGORY_TITLE_EXTRA);
-                if (displayCategoryTitleExtra != null)
-                    displayCategoryTitle = displayCategoryTitleExtra;
-            }
+            string displayCategoryTitle = courseCategoryManager.Current.Title;
+            //string displayCategoryTitle = DEFAULT_CATEGORY_TITLE;
+            //Intent startUpIntent = this.Intent;
+            //if (startUpIntent != null)
+            //{
+            //    String displayCategoryTitleExtra = startUpIntent.GetStringExtra(DEFAULT_CATEGORY_TITLE_EXTRA);
+            //    if (displayCategoryTitleExtra != null)
+            //        displayCategoryTitle = displayCategoryTitleExtra;
+            //}
+
+
             courseManager = new CourseManager(displayCategoryTitle);
             courseManager.MoveFirst();
 
@@ -48,6 +56,12 @@ namespace AndroidApp
 
             viewPager = FindViewById<ViewPager>(Resource.Id.coursePager);
             viewPager.Adapter = coursePagerAdapter;
+
+            drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawerLayout);
+            drawerListView = FindViewById<ListView>(Resource.Id.categoryDrawerListView);
+
+            drawerListView.Adapter =
+                new CourseCatagoryManagerAdapter(this, Android.Resource.Layout.SimpleListItem1, courseCategoryManager);
         }
     }
 }

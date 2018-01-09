@@ -13,7 +13,7 @@ using CoursesLibrary;
 
 namespace AndroidApp
 {
-    [Activity(Label = "Courses", MainLauncher = true)]
+    [Activity(Label = "Courses")]
    
     public class CategoryActivity : ListActivity
     {
