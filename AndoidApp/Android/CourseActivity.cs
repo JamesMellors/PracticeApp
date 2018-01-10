@@ -61,7 +61,20 @@ namespace AndroidApp
             drawerListView = FindViewById<ListView>(Resource.Id.categoryDrawerListView);
 
             drawerListView.Adapter =
-                new CourseCatagoryManagerAdapter(this, Android.Resource.Layout.SimpleListItem1, courseCategoryManager);
+                new CourseCatagoryManagerAdapter(this, Resource.Layout.SideNavigation, courseCategoryManager);
+
+            drawerListView.SetItemChecked(0, true);
+            drawerListView.ItemClick += DrawerListView_ItemClick;
+        }
+
+        private void DrawerListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            drawerLayout.CloseDrawer(drawerListView);
+            courseCategoryManager.MoveTo(e.Position);
+            courseManager = new CourseManager(courseCategoryManager.Current.Title);
+            coursePagerAdapter.CourseManager = courseManager;
+
+            viewPager.CurrentItem = 0;
         }
     }
 }

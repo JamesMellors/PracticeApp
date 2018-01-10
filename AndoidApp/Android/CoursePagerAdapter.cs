@@ -11,6 +11,7 @@ using Android.Views;
 using Android.Widget;
 using Android.Support.V4.App;
 using CoursesLibrary;
+using Java.Lang;
 
 namespace AndroidApp
 {
@@ -34,6 +35,20 @@ namespace AndroidApp
             courseFragment.Course = courseManager.Current;
 
             return courseFragment;
+        }
+
+        public CourseManager CourseManager
+        {
+            set {
+                courseManager = value;
+                NotifyDataSetChanged();
+
+            }
+        }
+
+        public override int GetItemPosition(Java.Lang.Object @object)
+        {
+            return PositionNone;
         }
     }
 }

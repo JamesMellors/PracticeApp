@@ -32,8 +32,12 @@ C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\res\drawab
 C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\res\drawable\ps_top_card_04.png
 C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\R.cs.flag
 C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\uploadflags.txt
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\CoursesLibrary.dll.mdb
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\res\layout\sidenavigation.xml
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Android.dll.mdb
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\android\assets\Android.dll.mdb
+C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\obj\Debug\android\assets\CoursesLibrary.dll.mdb
 C:\Users\SurveyMe User\Documents\Practice\AndoidApp\Android\bin\Debug\Android.dll
-C:\Users\SurveyMe User\Documents\Practice\AndoidApp\CoursesLibrary\bin\Debug\CoursesLibrary.dll
 bin\Debug\CoursesLibrary.dll.mdb
 obj\Debug\linksrc\Android.dll.mdb
 obj\Debug\linksrc\CoursesLibrary.dll.mdb
